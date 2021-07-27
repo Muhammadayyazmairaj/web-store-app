@@ -47,3 +47,14 @@ a {
     background: transparent;
     cursor: pointer;
 }
+
+.portion {
+    display: flex;
+    height: 140px;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-wrap: wrap;
+    }
+}
