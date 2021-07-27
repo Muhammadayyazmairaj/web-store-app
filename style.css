@@ -161,3 +161,46 @@ nav>ul {
         margin-top: 120px;
     }
 }
+
+#description {
+    margin-top: 70px;
+}
+
+#description .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    width: 20vw;
+    color: darkorange;
+}
+
+@media (max-width: 550px) {
+    #description .icon {
+        display: none;
+    }
+}
+
+#description .detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+    width: 86vw;
+    padding: 6px;
+}
+
+@media (max-width: 550px) {
+    #features .detail {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        height: 150px;
+    }
+}
+
+@media (max-width: 650px) {
+    #description {
+        margin-top: 0;
+    }
+}
